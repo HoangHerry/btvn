@@ -26,8 +26,8 @@ function bt2(input) {
     });
   }
   
-  var output = bt2('TRung NghIa');
-  console.log(output); 
+let output = bt2('TRung NghIa');
+console.log(output); 
 let bt2c2 = (chuoi) => {
     let mang = chuoi.split('')
     for(let index in mang){
