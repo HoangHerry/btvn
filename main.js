@@ -25,9 +25,7 @@ function bt2(input) {
       return character === character.toUpperCase() ? character.toLowerCase() : character.toUpperCase();
     });
   }
-  
-let output = bt2('TRung NghIa');
-console.log(output); 
+console.log(bt2('TRung NghIa')); 
 let bt2c2 = (chuoi) => {
     let mang = chuoi.split('')
     for(let index in mang){
